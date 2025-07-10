@@ -1,5 +1,10 @@
 # Welcome to your Expo app 👋
 
+
+
+https://github.com/user-attachments/assets/1b8821b6-3dc9-4e85-9c21-2ee7c1c12692
+
+
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
@@ -15,6 +20,10 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npx expo start
    ```
+
+
+Uploading petwatch-app-task-demo.mov…
+
 
 In the output, you'll find options to open the app in a
 
