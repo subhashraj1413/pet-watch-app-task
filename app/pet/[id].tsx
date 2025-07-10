@@ -55,7 +55,7 @@ export default function PetDetail() {
           <Card.Actions style={styles.actions}>
             {pet.is_adopted ? (
               <ThemedText style={[styles.adoptedText, { color: theme.colors.error }]}>
-                Already adopted ❤️
+                Adopted ❤️
               </ThemedText>
             ) : (
               <Link href={`/adopt/${id}`} asChild>
