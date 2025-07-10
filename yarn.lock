@@ -888,6 +888,21 @@
     "@eslint/core" "^0.15.1"
     levn "^0.4.1"
 
+"@expo-google-fonts/inter@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/inter/-/inter-0.4.1.tgz#0240eb12dc906582358b2fbc4b5aabeed6a69d37"
+  integrity sha512-ypL+XokTHEG+ie/nxNj/mS38afMrY4Li4oKvTJf9k9XvH7I21qfTGCsDtlZ6nIUWEAy1odoUZISdXT1nfMh4kA==
+
+"@expo-google-fonts/lato@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/lato/-/lato-0.4.0.tgz#fbfe75ee98614d1bf2394adb8e1d61fa2ca6da20"
+  integrity sha512-UjaKhO+NmZ4VXo7eBKX+jFxJeOXmECrmHGx5wbPR4lesVo+NKiyqjTnfZCddQ9KJX+1lN4gPo/REma/a72fwqw==
+
+"@expo-google-fonts/poppins@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/poppins/-/poppins-0.4.0.tgz#590a6bb1b9de751e2fb79af95fc52bbf35cf4d7f"
+  integrity sha512-mY+z56ai1p01EltWCPEDc2EZR+yq7qAMpgDa+SP16j3vwETOLG3pl+W74oUhZayHw0uYdQjTXkm4ZO4QvX1I7w==
+
 "@expo/cli@0.24.20":
   version "0.24.20"
   resolved "https://registry.yarnpkg.com/@expo/cli/-/cli-0.24.20.tgz#c9a3ad7eb93b0d6a39da20ef8804976b65838790"
@@ -3451,7 +3466,7 @@ expo-file-system@~18.1.11:
   resolved "https://registry.yarnpkg.com/expo-file-system/-/expo-file-system-18.1.11.tgz#a563c715c4bb5c18729d6d104e8c6cdfbd383e69"
   integrity sha512-HJw/m0nVOKeqeRjPjGdvm+zBi5/NxcdPf8M8P3G2JFvH5Z8vBWqVDic2O58jnT1OFEy0XXzoH9UqFu7cHg9DTQ==
 
-expo-font@~13.3.2:
+expo-font@^13.3.2, expo-font@~13.3.2:
   version "13.3.2"
   resolved "https://registry.yarnpkg.com/expo-font/-/expo-font-13.3.2.tgz#1b5a1a14d6827a48a3f003577d5f7dc6b344a1d3"
   integrity sha512-wUlMdpqURmQ/CNKK/+BIHkDA5nGjMqNlYmW0pJFXY/KE/OG80Qcavdu2sHsL4efAIiNGvYdBS10WztuQYU4X0A==
@@ -3472,6 +3487,11 @@ expo-keep-awake@~14.1.4:
   version "14.1.4"
   resolved "https://registry.yarnpkg.com/expo-keep-awake/-/expo-keep-awake-14.1.4.tgz#80197728563e0e17523e5a606fbd6fbed9639503"
   integrity sha512-wU9qOnosy4+U4z/o4h8W9PjPvcFMfZXrlUoKTMBW7F4pLqhkkP/5G4EviPZixv4XWFMjn1ExQ5rV6BX8GwJsWA==
+
+expo-linear-gradient@^14.1.5:
+  version "14.1.5"
+  resolved "https://registry.yarnpkg.com/expo-linear-gradient/-/expo-linear-gradient-14.1.5.tgz#414bf0c8145089087198d4dd5a419eb324af2a02"
+  integrity sha512-BSN3MkSGLZoHMduEnAgfhoj3xqcDWaoICgIr4cIYEx1GcHfKMhzA/O4mpZJ/WC27BP1rnAqoKfbclk1eA70ndQ==
 
 expo-linking@~7.1.7:
   version "7.1.7"
@@ -6649,6 +6669,11 @@ typed-array-length@^1.0.7:
     is-typed-array "^1.1.13"
     possible-typed-array-names "^1.0.0"
     reflect.getprototypeof "^1.0.6"
+
+typescript@~5.8.3:
+  version "5.8.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.3.tgz#92f8a3e5e3cf497356f4178c34cd65a7f5e8440e"
+  integrity sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==
 
 ua-parser-js@^1.0.35:
   version "1.0.40"

@@ -1,6 +1,6 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import { createClient } from '@supabase/supabase-js';
-import 'react-native-url-polyfill/auto';
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { createClient } from "@supabase/supabase-js";
+import "react-native-url-polyfill/auto";
 
 export const supabase = createClient(
   process.env.EXPO_PUBLIC_SUPABASE_URL!,
@@ -12,5 +12,10 @@ export const supabase = createClient(
       persistSession: true,
       detectSessionInUrl: false,
     },
-  },
+  }
 );
+
+export function getPublicImageUrl(path: string) {
+  if (!path) return { publicUrl: "", error: "No path provided" };
+  return supabase.storage.from("pets").getPublicUrl(path).data;
+}
