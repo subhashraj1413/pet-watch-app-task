@@ -3,7 +3,7 @@
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
-[![Watch the video](https://github.com/subhashraj1413/pet-watch-app-task/blob/main/petwatch-app-task-demo.mov)]
+
 (https://www.youtube.com/watch?v=VIDEO_ID](https://github.com/subhashraj1413/pet-watch-app-task/blob/main/petwatch-app-task-demo.mov)
 1. Install dependencies
 
